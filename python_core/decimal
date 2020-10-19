@@ -1,0 +1,8 @@
+from decimal import Decimal
+
+i = Decimal('0.0')
+n = 3
+for z in range(n):
+	i+=i
+
+print(i)
